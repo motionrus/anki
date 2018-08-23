@@ -1,7 +1,45 @@
 .card {
  font-family: arial;
  font-size: 20px;
+ position: center;
+ margin: 0 auto;
+ width: 400px;
  text-align: center;
  color: black;
  background-color: white;
+ 
+}
+
+.backcard {
+	text-align: left;
+}
+
+.backcard .word {
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.backcard .level {
+	padding-right: 20px;
+	padding-left: 20px;
+	background: gray;
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	border-radius: 8px;
+
+}
+
+.backcard span {
+	font-weight: bold;
+}
+
+.backcard .russian {
+	margin: 20px;
+	color: #0096ab;
+}
+
+.backcard .example {
+	margin: 20px;
+	font-style: italic;
 }
